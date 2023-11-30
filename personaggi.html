@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Introduzione</title>
+</head>
+
+<body>
+    <header>
+        <div id="rectangle">
+            <h1 style=color:transparent;>Rivoluzione Americana</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="introduzione.html">Introduzione</a></li>
+            <li><a href="cause.html">Cause</a></li>
+            <li><a href="eventi.html">Eventi</a></li>
+            <li><a href="personaggi.html">Personaggi</a></li>
+            <li><a href="conseguenze.html">Conseguenze</a></li>
+        </ul>
+        <a href="illuminismomappa.pdf"><button id="button2"></button></a>
+    </nav>
+    <div class="toggle-container ">
+        <h1>I Protagonisti della Rivoluzione Americana: Volti che Hanno Modellato la Storia</h1>
+        <p>La Rivoluzione Americana è un affresco epico di coraggio, visione e dedizione, intessuto dai destini di
+            personaggi straordinari. Qui presentiamo alcuni dei protagonisti chiave che hanno scolpito il percorso verso
+            l'indipendenza degli Stati Uniti d'America.</p>
+
+        <div>
+            <h2> George Washington: Il Padre della Nazione</h2>
+            <button onclick="toggleVisibility(this)" id="pers1"></button>
+            <p class="hidden">George Washington, comandante in capo dell'esercito continentale, è stato il faro della
+                Rivoluzione. La sua
+                leadership carismatica a Valley Forge e la vittoria a Yorktown hanno guadagnato la stima di tutti, tanto
+                da
+                essere unanimemente scelto come il primo presidente degli Stati Uniti.</p>
+        </div>
+        <div>
+            <h2> Thomas Jefferson: L'Autore della Dichiarazione d'Indipendenza</h2>
+            <button onclick="toggleVisibility(this)" id="pers2"></button>
+            <p class="hidden">Thomas Jefferson, figura chiave del Secondo Congresso Continentale, ha scritto la
+                Dichiarazione
+                d'Indipendenza, un manifesto intriso di ideali illuministi. Successivamente, ha servito come terzo
+                presidente degli Stati Uniti e ha guidato l'acquisto della Louisiana.</p>
+        </div>
+        <div>
+            <h2> Benjamin Franklin: Il Politico e Diplomatico</h2>
+            <button onclick="toggleVisibility(this)" id="pers3"></button>
+            <p class="hidden">Benjamin Franklin, noto per la sua saggezza e astuzia, ha giocato un ruolo cruciale nella
+                diplomazia durante
+                la Rivoluzione. Ha negoziato il trattato di alleanza con la Francia, ottenendo il sostegno vitale per la
+                causa americana.</p>
+        </div>
+        <div>
+            <h2> John Adams: L'Architetto della Diplomazia e il Secondo Presidente</h2>
+            <button onclick="toggleVisibility(this)" id="pers4"></button>
+            <p class="hidden">John Adams, avvocato e politico, ha svolto ruoli chiave durante la Rivoluzione, incluso il
+                suo contributo
+                alla stesura della Costituzione del Massachusetts. Successivamente, è diventato il primo vicepresidente
+                e il
+                secondo presidente degli Stati Uniti.</p>
+        </div>
+        <div>
+            <h2> Alexander Hamilton: Il Fondatore delle Finanze Americane</h2>
+            <button onclick="toggleVisibility(this)" id="pers5"></button>
+            <p class="hidden">Alexander Hamilton, uno degli autori de "Il Federalista", ha svolto un ruolo fondamentale
+                nella creazione del
+                sistema finanziario degli Stati Uniti. Il suo impatto è evidente nel Tesoro degli Stati Uniti e nelle
+                politiche economiche a lungo termine.</p>
+        </div>
+        <div>
+            <h2> John Adams: Il Figlio del Presidente e Segretario di Stato</h2>
+            <button onclick="toggleVisibility(this)" id="pers6"></button>
+            <p class="hidden">John Quincy Adams, figlio di John Adams, ha seguito le orme paterne diventando il sesto
+                presidente degli
+                Stati Uniti. La sua carriera politica è stata segnata da impegno per la diplomazia e la lotta contro la
+                schiavitù.</p>
+        </div>
+        <div>
+            <h2> Abigail Adams: La Voce delle Donne nella Rivoluzione</h2>
+            <button onclick="toggleVisibility(this)" id="pers7"></button>
+            <p class="hidden">Abigail Adams, moglie di John Adams, è stata una voce influente per i diritti delle donne.
+                Le sue lettere a
+                John riflettono una consapevolezza precoce dei diritti femminili, anticipando le lotte future per
+                l'uguaglianza di genere.</p>
+        </div>
+        <div>
+            <h2> Benedict Arnold: Il Traditore Controverso</h2>
+            <button onclick="toggleVisibility(this)" id="pers8"></button>
+            <p class="hidden">Benedict Arnold, inizialmente un eroe americano, si convertì in un traditore, passando ai
+                britannici. La sua
+                storia è un'ombra nella Rivoluzione, ma la sua figura suscita ancora dibattiti sulla sua motivazione.
+            </p>
+        </div>
+        <div>
+            <h2> Marquis de Lafayette: L'Eroe Francese della Rivoluzione</h2>
+            <button onclick="toggleVisibility(this)" id="pers9"></button>
+            <p class="hidden">Marquis de Lafayette, giovane ufficiale francese, fu un alleato chiave degli americani. La
+                sua amicizia con
+                Washington e il suo impegno per la causa americana lo rendono un eroe nazionale negli Stati Uniti.</p>
+        </div>
+        <div>
+            <h2> Paul Revere: L'Uomo della Mezzanotte</h2>
+            <button onclick="toggleVisibility(this)" id="pers10"></button>
+            <p class="hidden">Paul Revere, celebre per la sua "Cavalcata di Mezzanotte", è diventato un simbolo
+                dell'avvertimento contro
+                l'avanzata delle truppe britanniche. La sua figura è rimasta un'icona della resistenza.
+                Questi personaggi, con la loro diversità di talenti e contributi, sono intrecciati nella trama della
+                Rivoluzione Americana. Le loro storie sono la testimonianza di un periodo straordinario in cui uomini e
+                donne si sono uniti per plasmare il destino di una nazione appena nata.</p>
+        </div>
+    </div>
+    <script>
+        function toggleVisibility(button) {
+            var container = button.parentElement;
+            var paragraphs = container.getElementsByTagName('p');
+
+            for (var i = 0; i < paragraphs.length; i++) {
+                if (paragraphs[i].classList.contains('hidden')) {
+                    paragraphs[i].classList.remove('hidden');
+                } else {
+                    paragraphs[i].classList.add('hidden');
+                }
+            }
+        }
+    </script>
+</body>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Introduzione</title>
+</head>
+<body>
+    <header>
+        <div id="rectangle">
+         <h1 style=color:transparent;>Rivoluzione Americana</h1></div>
+     </header>
+     
+     <nav>
+         <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="introduzione.html">Introduzione</a></li>
+             <li><a href="cause.html">Cause</a></li>
+             <li><a href="eventi.html">Eventi</a></li>
+             <li><a href="personaggi.html">Personaggi</a></li>
+             <li><a href="conseguenze.html">Conseguenze</a></li>
+         </ul>
+         <a href="illuminismomappa.pdf"><button id="button2"></button></a>
+     </nav>
+   
+<div  class="tendina toggle-container"  >
+    <h1>La colonizzazione Americana </h1> 
+    
+    <p>
+        Benvenuti nella sezione dedicata alla Rivoluzione Americana, un capitolo epico nella storia che ha plasmato il destino degli Stati Uniti d'America. La Rivoluzione Americana è un punto di svolta cruciale, un momento in cui i coloni americani sfidarono il dominio britannico per affermare il loro diritto all'autodeterminazione e alla libertà.</p>
+   <div> <h2 >Contesto storico:</h2>
+    <button onclick="toggleVisibility(this)" id="button"></button> 
+    <p class="hidden">Nel XVIII secolo, le colonie americane vivevano sotto il controllo della Gran Bretagna. La tensione cresceva a causa di tasse oppressive e restrizioni commerciali imposte dal governo britannico, senza che i coloni avessero voce in capitolo. La richiesta di "no taxation without representation" ("nessuna tassazione senza rappresentanza") divenne il grido di battaglia che catalizzò il desiderio di libertà.</p>   
+    </div>
+    <div><h2>La Fiamma della Rivolta:</h2> 
+    <button onclick="toggleVisibility(this)" id="button"></button> 
+    <p class="hidden">Il 19 aprile 1775, a Lexington e Concord, le prime sparatorie segnarono l'inizio della lotta armata. Il conflitto si intensificò, e nel luglio 1776, il Congresso Continentale dichiarò l'indipendenza con la celebre Dichiarazione d'Indipendenza. Thomas Jefferson, tra gli altri, delineò eloquentemente i principi di libertà, uguaglianza e diritto alla felicità.</p>
+  </div>
+  <div><h2 >Eroi della Libertà:</h2>   
+    <button onclick="toggleVisibility(this)" id="button"></button> 
+    <p class="hidden">Nomi come George Washington, il comandante dell'esercito continentale, e Benjamin Franklin, figura chiave nella diplomazia, risplendono come eroi della Rivoluzione Americana. Le loro gesta coraggiose e il loro impegno incrollabile hanno plasmato il corso della storia.</p>
+   </div> 
+   <div><h2>La Guerra e il Trionfo:</h2>
+    <button onclick="toggleVisibility(this)" id="button"></button> 
+    <p class="hidden">La guerra si protrasse per anni, caratterizzata da vittorie e sconfitte. La battaglia di Saratoga nel 1777 si rivelò cruciale, guadagnando il sostegno chiave della Francia. La vittoria finale giunse nel 1781 con la resa britannica a Yorktown, confermando l'indipendenza americana.</p>
+    </div>
+    <div><h2>L'Eredità Duratura:</h2>
+    <button onclick="toggleVisibility(this)" id="button"></button> 
+    <p class="hidden">La Rivoluzione Americana ha lasciato un'eredità duratura. La Costituzione degli Stati Uniti, redatta nel 1787, divenne il pilastro della nuova nazione, sancendo principi democratici e diritti fondamentali. Questo capitolo ha aperto la strada per l'evoluzione degli Stati Uniti in una potenza mondiale e ha ispirato movimenti per l'indipendenza in tutto il mondo.
+</div>
+  
+        <script>
+          function toggleVisibility(button) {
+            var container = button.parentElement;
+            var paragraphs = container.getElementsByTagName('p');
+      
+            for (var i = 0; i < paragraphs.length; i++) {
+              if (paragraphs[i].classList.contains('hidden')) {
+                paragraphs[i].classList.remove('hidden');
+              } else {
+                paragraphs[i].classList.add('hidden');
+              }
+            }
+          }
+        </script>
+</body>

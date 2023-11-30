@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('bandiera-americana.png');
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    word-spacing: 3.3cm;
+    padding: 1em;
+}
+nav {
+    display: flex;
+    text-align: center;
+    word-spacing: 3cm;
+    
+   justify-content: space-between;
+    
+}
+nav {
+    background-color: rgb(32, 32, 77);
+   padding: 1em;
+}
+
+nav ul li {
+    list-style-type: none;
+    display:inline-block;
+    padding:10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    color:red;
+    transition: .3s;
+}
+
+main {
+    padding: 20px;
+}
+.RV{
+text-align: center;
+font-size:xx-large;
+color: red;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+.barra{
+    height: 10cm;
+    width: 100%;
+    background-position: center;
+}
+#timeline {
+    position: relative;
+    top: 5cm;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 2px;
+    background-color: #333;
+    position: relative;
+}
+
+.event {
+    .event {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        background-color: #333;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        text-align: center;
+    color:blue;
+}}
+
+.event h3 {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.event p {
+    margin: 1cm 0 0;
+    font-size: 12px;
+}
+/* #rectangle {
+    width: 16cm;
+    height: 1cm;
+    margin-left: 10cm;
+    align-items: center;
+    background: rgba(192, 3, 3, 0.644);*/
+    
+    .tendina{
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    .hidden{
+        display: none;
+    }
+    #button{
+        background-image: url(button.png);
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+        
+    }
+    
+    #button2{
+        background-image: url(bottone2-r.png);
+        
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 80px;
+        width: 40px; 
+       
+    }
+    /*.personaggio > button{
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+    }*/   
+     #pers1{
+        background-image: url(giorgio-removebg-preview.png);
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+    }
+    #pers2{
+        background-image: url(jefferson-removebg-preview.png);
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+
+    }
+    #pers3{
+        background-image: url(franklin-removebg-preview.png);
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+
+    }
+    #pers4{
+        background-image: url(Adams-removebg-preview.png);
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+
+    }
+    #pers5{
+        background-image: url(hamilton-removebg-preview.png);
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+
+    }
+    #pers6{
+        background-image: url(quincy_adams-removebg-preview.png);
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+
+    }
+    #pers7{
+        background-image: url(abigail-removebg-preview.png);
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+
+    }
+    #pers8{
+        background-image: url(Benedict_Arnold-removebg-preview.png);
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+
+    }
+    #pers9{
+        background-image: url(_MarquisdeLafayette-removebg-preview.png);
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+
+    }
+    #pers10{
+        background-image: url(PaulRevere-removebg-preview.png);
+        background-position: center;
+        background-size: cover;
+        height: 30px; 
+        width: 30px;
+
+    }
+    #mappa{
+        display:flex;
+        margin:center ;
+        bottom: 80%;
+    }
+ 
